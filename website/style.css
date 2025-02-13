@@ -1,0 +1,49 @@
+body {
+    background-image: url('image/kjumj\ logo.jpg');
+}
+
+header {
+    background-color: rgb(21, 126, 175);
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+    height: 40px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px
+}
+nav {
+    background-color: white;
+}
+
+nav a {
+    color: rgb(21, 126, 175);
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+nav :hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#home h1 {
+    color: rgb(132, 134, 132);
+    text-align: center;
+    padding: 2px;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px;
+}
