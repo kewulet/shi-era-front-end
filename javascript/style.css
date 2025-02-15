@@ -89,6 +89,7 @@ nav a:hover:after {
     width: 400px;
     height: 200px;
     display: inline-flex;
+    flex-direction: column;
 }
 
 #campuse p {
@@ -99,4 +100,9 @@ nav a:hover:after {
 #contact{
     background-color: rgba(167, 163, 163, 0.829);
     padding: 30px;
+}
+.two{
+    width: 0px;
+    border-radius: 0;
+    height: 0px;
 }
