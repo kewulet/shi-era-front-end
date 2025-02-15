@@ -149,7 +149,7 @@ footer {
 }
 
 /*for tablet*/
-@media(min-width:721px) {
+ {
     body {
         background-color: rgb(116, 82, 82);
     }

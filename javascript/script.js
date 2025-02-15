@@ -1,31 +1,62 @@
-const password = document.getElementsByClassName("password");
-const length = 10;
-const upperCase = ABCDEFGHIJKLMNOPQRSTUVWXYZ;
-const loweCase = abcdefghijklmnopqrstuvwxyz;
-const number = "0123456789";
-const symbole = " @!$%#^&*{}<>/=-";
-const allChars = uppeCase + lowerCase + number + symbole;
 
-function createPassword() {
-    let password = "";
-    password += upperCase[maths.floor(Math.random() * upperCase.length)];
-    password += symbole[maths.floor(Math.random() * symbole.length)];
-    password += number[maths.floor(Math.random() * number.length)];
-    password += lowerCase[maths.floor(Math.random() * lowerCase.length)];
-    while (length > password.length) {
-        password += allChars[maths.floor(Math.random() * allChars.length)];
+alert("this is simple java project");
+const button = document.getElementById('button');
+const imgg = document.getElementById('imgg');
+
+
+if (button && imgg) {
+    button.addEventListener('click', () => {
+
+        imgg.classList.toggle('hidden');
+
+        if (imgg.classList.contains('hidden')) {
+            button.textContent = 'Show Content';
+        } else {
+            imgg.textContent = 'Hide Content';
+
+        }
+    });
+} else {
+    console.error("Button or image element not found.  Check your HTML IDs.");
+}
+
+
+function myFunction() {
+    const jimmaElements = document.getElementsByClassName("jimma")
+    for (let i = 0; i < jimmaElements.length; i++) {
+        jimmaElements[i].innerHTML = "about Jimma university website.";
     }
-    passwordBox.value = password;
+}
+myFunction();
 
+
+if (firstName === '') {
+    alert('Please enter your first name.');
+    return;
+}
+
+if (lastName === '') {
+    alert('Please enter your last name.');
+    return;
+}
+
+if (email === '') {
+    alert('Please enter your email.');
+    return;
 }
 
 
-const img = document.getElementsByTagName("img");
-const p = document.getElementsByTagName("p");
-const color = ('green', 'red', 'yellow',);
-
-img.style.background = 'green';
-p.addEventListner('click' function ()){
-    const colorIndex = parseInt(Math.random() * colors * length);
-    img.style.background = color[colorIndex];
+if (!email.includes('@')) {
+    alert('Please enter a valid email address.');
+    return;
 }
+
+if (password === '') {
+    alert('Please enter your password.');
+    return;
+}
+alert('Form is valid!  You would typically submit it here.');
+
+
+ 
+
