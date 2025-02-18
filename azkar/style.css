@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+}
+
+#main {
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+h1 {
+    color: chocolate;
+}
+
+button {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+button :hover {
+    background-color: red;
+    opacity: 1;
+}
+
+
+#incriment {
+    background-color: white;
+    color: black;
+}
+
+#decrease {
+    background-color: white;
+    color: black;
+}
+
+#reset {
+    background-color: white;
+    color: black;
+}
